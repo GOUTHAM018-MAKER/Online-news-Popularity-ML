@@ -3,11 +3,6 @@
 **Project:** Understanding and Predicting Online News Popularity  
 **Course:** ES 335
 
-| Team member | Roll number | Contribution share |
-|---|---|---|
-| Goutham | 25110359 | 50% |
-| Adimulam Mokshajna Sai Satya Sri Harsha | 25110011 | 50% |
-
 The team reports an equal contribution to the project as a whole. The work was collaborative, rather than divided into separately owned analysis and website components. The areas below describe the shared project work; the 50% share applies to the overall contribution, not a measured allocation of hours to each task.
 
 ## Shared project work

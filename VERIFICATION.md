@@ -27,3 +27,10 @@ The short AI disclosure names Codex and Claude. Repository links point to the su
 ## GitHub Pages publication check
 
 Published to https://goutham018-maker.github.io/Online-news-Popularity-ML/#home through GOUTHAM018-MAKER. The live website loaded with all result sections and populated explorer data. The baseline random-expectation view and missed-popular case view worked. No browser warnings or errors were captured during these checks. Opening takeaway text was visibly readable. These are assistant-run checks and do not establish independent student reruns.
+
+
+## Final live website check — 18 November 2026
+
+All 13 sidebar links were exercised and their section destinations checked. The explorer was exercised with all four models and all three popularity thresholds, all seven channels plus the combined view, promotion budgets of 1% and 50%, and both selected and missed-case views. Restoring the default settings reproduced 932 promoted articles and 236 popular hits.
+
+Both expandable panels opened and closed. All three figure images loaded. Both repository links pointed to the submission repository. A scan of visible page text and expanded-panel content found no draft prompts or placeholders. No browser warnings or errors were captured during these checks. These focused checks passed; no application fix was required.

@@ -4,9 +4,9 @@
 
 We study whether article-level features improve predictions of recorded social shares for later Mashable articles compared with a constant baseline. The project compares a median baseline, Ridge regression, random forest and boosted trees using a chronological validation/test design. The selected forest provides a modest improvement; highly shared articles remain difficult to predict. The static website presents the reasoning and an interactive promotion-budget exercise using held-out predictions.
 
-**GitHub Pages address after publication:** https://goutham018-maker.github.io/Online-news-Popularity-ML/#home
+**Live website:** https://goutham018-maker.github.io/Online-news-Popularity-ML/#home
 
-Publication is pending; this address is not yet verified live.
+Published on GitHub Pages. The live page and explorer were checked on 17 November 2026.
 
 ## Repository structure
 

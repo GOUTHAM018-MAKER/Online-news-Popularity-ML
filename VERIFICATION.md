@@ -31,3 +31,8 @@ Independent recomputation from exported predictions matched all four models’ l
 Browser review verified the opening takeaway at a narrow phone layout, navigation to the explorer, baseline random-tie interpretation and missed-popular case selection. No browser errors or warnings were reported during these checks. This was a focused browser check, not an exhaustive device or control matrix.
 
 The short AI disclosure names Codex and Claude. Repository links point to the supplied submission repository. GitHub upload and Pages publication remain blocked by account access; no public deployment was verified. Student contributions and independent understanding remain to be confirmed by the authors. Earlier entries describe bundled historical checks; this section records this review separately.
+
+
+## GitHub Pages publication check
+
+Published to https://goutham018-maker.github.io/Online-news-Popularity-ML/#home through GOUTHAM018-MAKER. The live website loaded with all result sections and populated explorer data. The baseline random-expectation view and missed-popular case view worked. No browser warnings or errors were captured during these checks. Opening takeaway text was visibly readable. These are assistant-run checks; independent student understanding and contributions remain for the authors to confirm.

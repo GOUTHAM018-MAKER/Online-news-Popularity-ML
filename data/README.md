@@ -1,0 +1,2 @@
+Download Online News Popularity from https://archive.ics.uci.edu/dataset/332/online+news+popularity (Download button). Save the unmodified archive here as `online+news+popularity.zip`. Alternatively pass a local CSV or ZIP path to `src/analyze.py --data PATH`.
+The analysis reads only the CSV member and does not extract or execute archive contents. Raw data is excluded from Git; precomputed results are included. Dataset license: CC BY 4.0. The original article text belongs to Mashable and is not included.

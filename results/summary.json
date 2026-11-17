@@ -1,0 +1,234 @@
+{
+  "rows": 39644,
+  "columns": 61,
+  "features": [
+    "n_tokens_title",
+    "n_tokens_content",
+    "n_unique_tokens",
+    "n_non_stop_words",
+    "n_non_stop_unique_tokens",
+    "num_hrefs",
+    "num_self_hrefs",
+    "num_imgs",
+    "num_videos",
+    "average_token_length",
+    "num_keywords",
+    "data_channel_is_lifestyle",
+    "data_channel_is_entertainment",
+    "data_channel_is_bus",
+    "data_channel_is_socmed",
+    "data_channel_is_tech",
+    "data_channel_is_world",
+    "weekday_is_monday",
+    "weekday_is_tuesday",
+    "weekday_is_wednesday",
+    "weekday_is_thursday",
+    "weekday_is_friday",
+    "weekday_is_saturday",
+    "weekday_is_sunday",
+    "is_weekend",
+    "global_subjectivity",
+    "global_sentiment_polarity",
+    "global_rate_positive_words",
+    "global_rate_negative_words",
+    "rate_positive_words",
+    "rate_negative_words",
+    "avg_positive_polarity",
+    "min_positive_polarity",
+    "max_positive_polarity",
+    "avg_negative_polarity",
+    "min_negative_polarity",
+    "max_negative_polarity",
+    "title_subjectivity",
+    "title_sentiment_polarity",
+    "abs_title_subjectivity",
+    "abs_title_sentiment_polarity"
+  ],
+  "excluded": [
+    "kw_min_min",
+    "kw_max_min",
+    "kw_avg_min",
+    "kw_min_max",
+    "kw_max_max",
+    "kw_avg_max",
+    "kw_min_avg",
+    "kw_max_avg",
+    "kw_avg_avg",
+    "self_reference_min_shares",
+    "self_reference_max_shares",
+    "self_reference_avg_sharess",
+    "LDA_00",
+    "LDA_01",
+    "LDA_02",
+    "LDA_03",
+    "LDA_04",
+    "url",
+    "timedelta",
+    "shares",
+    "row_id",
+    "date",
+    "split"
+  ],
+  "csv_sha256": "b66d9088632308cc27fa35af847650d174a5a50503987c4e511de94a99d1c218",
+  "invalid_ratios": {
+    "n_unique_tokens": 1,
+    "n_non_stop_words": 1,
+    "n_non_stop_unique_tokens": 1
+  },
+  "missing_original": 0,
+  "zero_content": 1181,
+  "share_quantiles": {
+    "0.0": 1.0,
+    "0.5": 1400.0,
+    "0.9": 6200.0,
+    "0.99": 31656.99999999997,
+    "1.0": 843300.0
+  },
+  "splits": {
+    "train": {
+      "n": 21892,
+      "start": "2013-01-07",
+      "end": "2014-03-14"
+    },
+    "validation": {
+      "n": 8440,
+      "start": "2014-03-15",
+      "end": "2014-08-05"
+    },
+    "test": {
+      "n": 9312,
+      "start": "2014-08-06",
+      "end": "2014-12-27"
+    }
+  },
+  "winner": "Random forest",
+  "metrics": [
+    {
+      "model": "Median baseline",
+      "validation_log_mae": 0.643286650746782,
+      "test_log_mae": 0.6567312341203634,
+      "test_rmsle": 0.910179773189732,
+      "test_mae_shares": 2153.2504295532644,
+      "test_r2_log": -0.008668758863844106,
+      "parameters": {}
+    },
+    {
+      "model": "Ridge",
+      "validation_log_mae": 0.605962643900493,
+      "test_log_mae": 0.6386818212765325,
+      "test_rmsle": 0.8629008874772447,
+      "test_mae_shares": 2130.69449217395,
+      "test_r2_log": 0.09339931871487439,
+      "parameters": {
+        "alpha": 1
+      }
+    },
+    {
+      "model": "Random forest",
+      "validation_log_mae": 0.6037772913873725,
+      "test_log_mae": 0.6317130730774614,
+      "test_rmsle": 0.8540907436219691,
+      "test_mae_shares": 2121.328534827918,
+      "test_r2_log": 0.1118174425189189,
+      "parameters": {
+        "min_samples_leaf": 30
+      }
+    },
+    {
+      "model": "Boosted trees",
+      "validation_log_mae": 0.6060348835515109,
+      "test_log_mae": 0.6334448040854458,
+      "test_rmsle": 0.8546759299442714,
+      "test_mae_shares": 2123.9978688335505,
+      "test_r2_log": 0.11059993643023336,
+      "parameters": {
+        "max_leaf_nodes": 31
+      }
+    }
+  ],
+  "trials": [
+    {
+      "model": "Median baseline",
+      "parameters": {},
+      "validation_log_mae": 0.643286650746782
+    },
+    {
+      "model": "Ridge",
+      "parameters": {
+        "alpha": 1
+      },
+      "validation_log_mae": 0.605962643900493
+    },
+    {
+      "model": "Ridge",
+      "parameters": {
+        "alpha": 100
+      },
+      "validation_log_mae": 0.6060912999722894
+    },
+    {
+      "model": "Random forest",
+      "parameters": {
+        "min_samples_leaf": 10
+      },
+      "validation_log_mae": 0.6077167510615694
+    },
+    {
+      "model": "Random forest",
+      "parameters": {
+        "min_samples_leaf": 30
+      },
+      "validation_log_mae": 0.6037772913873725
+    },
+    {
+      "model": "Boosted trees",
+      "parameters": {
+        "max_leaf_nodes": 15
+      },
+      "validation_log_mae": 0.6062343259949778
+    },
+    {
+      "model": "Boosted trees",
+      "parameters": {
+        "max_leaf_nodes": 31
+      },
+      "validation_log_mae": 0.6060348835515109
+    }
+  ],
+  "error_groups": [
+    {
+      "group": "Under 1,000",
+      "n": 2917,
+      "log_mae": 0.7547939488142912,
+      "mae_shares": 826.8425201871472,
+      "median_actual": 784.0,
+      "median_prediction": 1488.6191514209092
+    },
+    {
+      "group": "1,000\u20139,999",
+      "n": 5951,
+      "log_mae": 0.44747322463361633,
+      "mae_shares": 1139.6177421752843,
+      "median_actual": 1700.0,
+      "median_prediction": 1854.360538750695
+    },
+    {
+      "group": "10,000+",
+      "n": 444,
+      "log_mae": 2.292488801827439,
+      "mae_shares": 23783.888516321047,
+      "median_actual": 17150.0,
+      "median_prediction": 2032.3176916751036
+    }
+  ],
+  "paired_day_bootstrap_95_log_mae_improvement": [
+    0.018157438389793244,
+    0.032491043571104154
+  ],
+  "environment": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2"
+  }
+}

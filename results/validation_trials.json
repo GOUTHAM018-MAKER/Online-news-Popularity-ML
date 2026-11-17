@@ -1,0 +1,51 @@
+[
+  {
+    "model":"Median baseline",
+    "parameters":{
+
+    },
+    "validation_log_mae":0.6432866507
+  },
+  {
+    "model":"Ridge",
+    "parameters":{
+      "alpha":1
+    },
+    "validation_log_mae":0.6059626439
+  },
+  {
+    "model":"Ridge",
+    "parameters":{
+      "alpha":100
+    },
+    "validation_log_mae":0.6060913
+  },
+  {
+    "model":"Random forest",
+    "parameters":{
+      "min_samples_leaf":10
+    },
+    "validation_log_mae":0.6077167511
+  },
+  {
+    "model":"Random forest",
+    "parameters":{
+      "min_samples_leaf":30
+    },
+    "validation_log_mae":0.6037772914
+  },
+  {
+    "model":"Boosted trees",
+    "parameters":{
+      "max_leaf_nodes":15
+    },
+    "validation_log_mae":0.606234326
+  },
+  {
+    "model":"Boosted trees",
+    "parameters":{
+      "max_leaf_nodes":31
+    },
+    "validation_log_mae":0.6060348836
+  }
+]
